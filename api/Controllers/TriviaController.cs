@@ -13,7 +13,6 @@ namespace api.Controllers
     [Route("api/[controller]")]
     public class TriviaController : Controller
     {
-
         // GET api/trivia/
         [HttpGet("{number}")]
         public async Task<TriviaResponse> GetAsync(int number)
