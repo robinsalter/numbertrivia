@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using api.Dto;
 using Newtonsoft.Json;
 
+using System.Text;
+
 
 namespace api.Controllers
 {
